@@ -1,0 +1,14 @@
+nav{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+main p{
+    text-indent: 30px;
+    text-align: justify;
+}
+time{
+    background-color: aquamarine;
+}
