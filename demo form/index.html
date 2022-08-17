@@ -3,7 +3,7 @@
         <title>form</title>
     </head>
     <body>
-        <form action="form.html" method="get">
+        <form action="form.html" method="get" enctype="multipart/form-data">
         <div>
         <label>USER NAME:</label>
         <input type="text" required></div>
@@ -14,12 +14,30 @@
         <label>DOB:</label>
         <input type="date"><br><br>
         <label>E-mail id:</label>
-        <input type="email"><br><br>
+        <input type="email" required><br><br>
         <label>GENDER:</label>
-        <input type="radio" name="gender">Male
-        <input type="radio" name="gender">Female <br><br>
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender" required>Female <br><br>
+        <label>QUALIFICATION:</label>
+        <select name="QUALIFICATION" id="QUALIFICATION" required>
+            <optgroup label="BE"> 
+           <option value="CSE">CSE</option>
+           <option value="IT">IT</option>
+           <option value="EEE">EEE</option>
+           <option value="ECE">ECE</option>
+           <option value="MECH">MECH</option>
+           <option value="CIVIL">CSE</option>
+            </optgroup>
+            <optgroup label="ARTS">
+                <option value="bsc computer science">Bsc COMPUTER SCIENCE</option>
+                <OPtion value="bsc science">Bsc SCIENCE</OPtion>
+                <option value="bsc maths">Bsc MATHS</option>
+                <option value="BA tamil"> BA TAMIL</option>
+                <option value="ba english"> BA ENGLISH</option>
+            </optgroup>
+        </select><br><br>
         <label>ADDRESS:</label> 
-        <textarea cols="30" rows="5"> </textarea><br><br> 
+        <textarea cols="30" rows="5" required> </textarea><br><br> 
         <label for="" >PASSPORT SIZE PHOTO:</label>
         <input type="file" required><br><br>
         <label>I agree</label>
