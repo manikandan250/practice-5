@@ -2,34 +2,62 @@
  <head>
   <title>layout</title>
   <style>
+    body{
+	 text-align:center;
+	}
     header{
 	  background-color:blue;
 	}
 	.menu{
 	  background-color:red;
-	  flex-grow:1;
+	  flex-basis:350px;
 	}
-	.main{
+	.contact{
 	  background-color:brown;
-	  flex-basis:200px;
+	  flex-grow:1;
 	}
 	.footer{
 	  background-color:yellow;
+	  
+	}
+	.container
+	{
+	 display:flex;
+	 height:700px;
+	}
+	header,footer ,section{
+	  padding:10px;
 	}
   </style>
  </head>
  <body>
-    <header>
+   <header>
 	  <h1>WEB SITE</h1>
 	</header>
-	<main> 
+	<main class ="container"> 
 	  <section class="menu">
 	    <h2>MENU</h2>
+           <ul> 
+		    <li>Home</li>
+			<li>About</li>
+			<li>Contact</li>
+			<li>Team</li>
+			<li>New</li>
+		  </ul>  		
+		    <img src="img/Ducati.png">
+	        <img src="img/flower.png">
 	  </section>
-	  <section class="main">
+	  <section class="contact">
 	    <h2>MAIN CONTANT</h2>
-	  </section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatum exercitationem mollitia velit dicta architecto ipsa saepe, ex illum fugit cumque incidunt eius distinctio omnis.</p>
+	    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatum exercitationem mollitia velit dicta architecto ipsa saepe, ex illum fugit cumque incidunt eius distinctio omnis.</blockquote>
+	     <h3>DUCATI BIKE<h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatum exercitationem mollitia velit dicta architecto ipsa saepe,<p>
+	      <br><br><br>
+		 <h3>FLOWER<h3>
+		 <p>Minima aut, magni ab in nisi necessitatibus esse rerum ipsa possimus ipsam ut reprehenderit dolores</p>
+	 </section>
 	</main>
 	<footer class="footer"> <h2>FOOTER</h2></footer>
- </body>
+	</body>
 </html>
