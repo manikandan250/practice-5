@@ -11,8 +11,30 @@
 	 <p>a &#62 b</p>
 	 <!--computer code-->
 	 <p>Ctrl<kbd>+</kbd><kbd>s</kbd></p>
-	 <pre>Two words separated by a non-breaking space will stick together (not break into a new line). 
-	      This is handy when breaking the words might be disruptive.</pre>
+	 <pre>Two words separated by a non-breaking space will stick together 
+(not break into a new line). 
+This is handy when breaking the
+ words might be disruptive.</pre>
+     <!-- var tag-->
+	 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+	 <!--samp tag-->
+	 <p>The area of a triangle is<samp>the vertical height</samp></p>
+	 <pre><code>   
+				public class ReverseNumberExample1   
+				{  
+				public static void main(String[] args)   
+				{  
+				int number = 987654, reverse = 0;  
+				while(number != 0)   
+				{  
+				int remainder = number % 10;  
+				reverse = reverse * 10 + remainder;  
+				number = number/10;  
+				}  
+				System.out.println("The reverse of the given number is: " + reverse);  
+				}  
+				} 
+	</code> </pre>
   </body>
     
 </html>
