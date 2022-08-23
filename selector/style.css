@@ -18,3 +18,23 @@ section>p{
 section+p{
 	color:blue;
 }
+
+a:visited{
+	background-color:red;
+}
+a:hover{
+	background-color:green;
+}
+a:active{
+	background-color:black;
+}
+/*
+.psuedo::first-line{
+	font-size:40px;
+}*/
+.psuedo::first-letter{
+	font-size:30px;
+}
+.before::before{
+	content:url(img/icon.png);
+}
