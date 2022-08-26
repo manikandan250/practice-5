@@ -143,7 +143,7 @@
 		 line-height:35px;  
 	  }
 	  .contain h2{
-		  color: #cccccc;
+		  color: #595959;
 	  }
 	  .service{
 		  text-align:center;
@@ -158,13 +158,127 @@
 		  height:70px;
 		  margin:30px;
 	  }
-	  .work h1,p{
+	/*  .work h1,p{
 		  margin:30px;
-	  }
+	  }*/
 	  .work p{
 		  line-height:30px;
 	  }
 	  .work{
 		  border:1px solid #bfbfbf;
 		  width:350px;
+	  }
+	  .hp{
+		  margin:30px;
+	  }
+	  .home img{
+		 width:70px;
+		 height:70px;
+		 margin:30px;   
+	  }
+	  .construction4{
+		  display:flex;
+		 
+	  }
+	  .home p{
+		  line-height:30px;
+	  }
+	  .home{
+		   border:1px solid #bfbfbf;
+		  width:350px;
+		  margin:0 0 0 120px;
+	  }
+	  .home p,h1{
+		  margin:30px;
+	  }
+	  .ic2 img{
+		 width:70px;
+		 height:70px;
+		 margin:30px;  
+	  }
+	  .ic2{
+		 border:1px solid #bfbfbf;
+		  width:350px;
+		  margin:0 0 0 120px;  
+	  }
+	  .ic2 p{
+		  line-height:30px;
+		  margin:30px;
+	  }
+	  .ic3 img{
+		width:70px;
+		 height:70px;
+		 margin:30px;  
+	  }
+	  .ic3 p{
+		  line-height:30px;
+		  margin:30px;
+	  }
+	  .ic3{
+		  border:1px solid #bfbfbf;
+		  width:350px;
+		  margin:40px 0 0 0;
+	  }
+	  .icn4 img{
+		width:70px;
+		 height:70px;
+		 margin:30px;  
+	  }
+	  .construction5{
+		  display:flex;
+	  }
+	  .icn4{
+		border:1px solid #bfbfbf;
+		width:350px;
+	    margin:40px 0 0 120px;  
+	  }
+	  .icn4 p{
+		line-height:30px;
+		 margin:30px;  
+	  }
+	  .icn5 img{
+		 width:70px;
+		 height:70px;
+		 margin:30px;  
+	  }
+	  .icn5{
+		border:1px solid #bfbfbf;
+		width:350px;
+	    margin:40px 0 0 120px;   
+	  }
+	  .icn5 p{
+		line-height:30px;
+		 margin:30px;   
+	  }
+	  .service1 h1{
+		  color:#4d4d4d;
+	  }
+	  .serv1 img{
+		  margin:100px 0 0 30px;
+		  width:600px;
+		  height:800px;
+	  }
+	  .service2{
+		 display:flex;
+	  }
+	  .serv2{
+		  margin:100px 0 0 60px;
+	  }
+	  .serv2 h2{
+		  font-size:40px;
+		  color:#4d4d4d;				
+	  }
+	  .serv2 p{
+		  line-height:30px;
+		  font-size:25px;
+	  }
+	  .sec1{
+		  margin:0 0 0 90px;
+	  }
+	  .sec1 h3{
+		  font-size:28px;
+	  }
+	  .sec1{
+		  line-height:30px;
+		  font-size:23px;
 	  }
