@@ -7,7 +7,7 @@
 	  justify-content:space-between;
 	  
 	  }
-	  a{
+	 .menu a{
         text-align:right;
 		margin:30px;
 		color:#123CEA;
@@ -256,7 +256,7 @@
 	  .serv1 img{
 		  margin:100px 0 0 30px;
 		  width:600px;
-		  height:800px;
+		  height:870px;
 	  }
 	  .service2{
 		 display:flex;
@@ -272,13 +272,50 @@
 		  line-height:30px;
 		  font-size:25px;
 	  }
-	  .sec1{
-		  margin:0 0 0 90px;
-	  }
+	  
 	  .sec1 h3{
 		  font-size:28px;
 	  }
 	  .sec1{
 		  line-height:30px;
 		  font-size:23px;
+		  margin:0 0 0 55px;
+	  }
+	   .fa-solid {
+		   padding:0 35px 0 0;
+		   color:#ffff00;
+		   
+	   }
+	   .sec1 p{
+		   padding:0 0 0 70px;
+	   }
+	    .sec2{
+		  line-height:30px;
+		  font-size:23px;
+		  margin:0 0 0 120px;
+	  }
+	  .sec2 i{
+		  margin: 0 0 0 -54px;
+	  }
+	  .sec3{
+		  line-height:30px;
+		  font-size:23px;
+		  margin:0 0 0 120px; 
+	  }
+	  .sec3 i{
+		margin:0 0 0 -54px;  
+	  }
+	  .sec4 {
+		  display:flex;
+		  margin:110px 0 0 0;
+		  padding:70px 0 0 0;
+		  
+	  }
+	  .sec4 a{
+		 text-decoration:none;
+		 padding:70px;
+		 margin:0 0 0 100px;
+		 font-size:27px;
+		 color:#404040;
+		 
 	  }
