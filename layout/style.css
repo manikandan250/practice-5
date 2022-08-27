@@ -5,6 +5,7 @@
 	  align-items:center;
 	  display:flex;
 	  justify-content:space-between;
+	 
 	  
 	  }
 	 .menu a{
@@ -309,6 +310,7 @@
 		  display:flex;
 		  margin:110px 0 0 0;
 		  padding:70px 0 0 0;
+		   
 		  
 	  }
 	  .sec4 a{
@@ -317,5 +319,113 @@
 		 margin:0 0 0 100px;
 		 font-size:27px;
 		 color:#404040;
+		 text-decoration:underline;
+		 text-decoration-color: #e6e600;
 		 
 	  }
+	  .sec6 h1{
+		  font-size:35px;
+		   padding:0 0 0 140px;
+	  }
+	  .sec6 p{
+		  font-size:20px;
+		  padding:0 0 0 175px;
+	  }
+	  .sec6 li{
+		  padding:0 0 0 140px;
+		  list-style:none;
+		  line-height:60px;
+		  font-size:20px;
+	  }
+	  .sec7 img{
+		  height:350px;
+		  width:430px; 
+		  margin:0 0 0 130px;
+		  padding:40px 0 0 0;
+		  
+	  }
+	  .construction7{
+		  display:flex;
+	  }
+	  .project h1 {
+		  text-align:center;
+		  padding:100px 0 0 0;
+		  font-size:45px;
+	      color:#8c8c8c;
+	  }
+	  .project pre{
+		  text-align:center;
+		  font-size:15px;
+	  }
+	  .project1 img{
+		  height:250px;
+		  width:320px;
+		  padding:0 0 0 70px;
+		  margin-right:50px;
+		  
+	  }
+	   .project2 img{
+		  height:250px;
+		  width:320px;
+		  padding:50px 0 0 70px;
+	      margin-right:50px;
+	   }
+	   .project3 img{
+		  height:250px;
+		  width:320px;
+		  padding:50px 0 0 70px;
+		  margin-right:50px;
+	   }
+	   .project4 img{
+		  height:250px;
+		  width:320px;
+		  padding:50px 0 0 70px;
+		  margin-right:50px;
+	   }
+	   .project5 img:hover{
+		   color:#bfbfbf;
+		   opacity:0.8;
+	   }
+	   .blog h1 {
+		  text-align:center;
+		  padding:100px 0 0 0;
+		  font-size:45px;
+	      color:#8c8c8c;
+	   }
+	   .blog pre{
+		  text-align:center;
+		  font-size:15px;
+	   }
+	   .blog1 img{
+		   height:300px;
+		   width:350px;
+	   }
+	   .blog1 h3{
+		   font-size:25px;
+	   }
+	   .blog1{
+		   margin-left:70px;
+	   }
+	   .blog2 img{
+		   height:300px;
+		   width:350px;  
+	   }
+	   .blog2 h3{
+		   font-size:25px;
+	   }
+	   .blog4{
+		   display:flex;
+	   }
+	   .blog2{
+		   margin-left:80px;
+	   }
+	   .blog3{
+	       margin-left:80px;   
+	   }
+	   .blog3 img{
+		   height:300px;
+		   width:350px;  
+	   }
+	   .blog3 h3{
+		   font-size:25px;
+	   }
