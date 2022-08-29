@@ -429,3 +429,81 @@
 	   .blog3 h3{
 		   font-size:25px;
 	   }
+	   .foot {
+			background-image:url(img/footer.jpg);
+			background-size:cover;
+			background-repeat:no-repeat;
+			display:flex;
+			
+
+		}
+		.foot p{
+			margin-top:50px;
+			font-size:20px;
+			color:black;
+			margin-left:50px;
+			
+		}
+		.foot h1{
+			margin:0 0 0 50px;
+			padding-top:50px;
+			font-size:25px;
+		}
+		.foot1{
+			margin:35px 0 0 80px;
+
+		    
+		}
+		.foot1 li{
+			list-style-type:none;
+			padding-bottom:20px;
+		
+			}
+			.foot1 h3{
+				font-size:20px;
+				margin-left: 36px;
+			}
+			.foot2{
+				margin:35px 0 0 80px;
+            }
+			.foot2 h3{
+				font-size:20px;
+				margin-left: 36px;
+	        }
+			.foot2 li{
+			list-style-type:none;
+			padding-bottom:20px;
+		
+			}
+			.foot3{
+				margin:35px 0 0 80px;
+            }
+			.foot3 h3{
+				font-size:20px;
+				margin-left: 36px;
+	        }
+			.foot3 li{
+			list-style-type:none;
+			padding-bottom:20px;
+		
+			}
+			.foot4{
+				margin:35px 0 0 80px;
+            }
+			.foot4 h3{
+				font-size:20px;
+				margin-left: 36px;
+	        }
+			.foot4 li{
+			list-style-type:none;
+			padding-bottom:20px;
+		
+			}
+			footer {
+				background-color:black;
+				opacity:0.5;
+			}
+			footer h1,h3{
+				color:black;
+			}
+			
