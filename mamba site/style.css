@@ -30,6 +30,7 @@ i{
     background-color:#ffffff;
 	justify-content:space-between;
 	
+	
    }
 .menu a{
 	margin-left:20px;
@@ -42,6 +43,24 @@ i{
     font-family: "Sofia", sans-serif;
     font-size: 30px;
 	color:  #8080ff;
+	}
+	.container{
+		position:relative;
+		background-image:url(img/slide/slide-2.jpg);
+		background-size:cover;
+		height:500px;
+		width:100%;
+		background-attachment:fixed;
+		padding:0;
+	}
+	.container::after{
+		content:"";
+		position:absolute;
+		background-color:rgba(13,20,26,0.7);
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
 	}
 
 
