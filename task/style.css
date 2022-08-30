@@ -1,0 +1,65 @@
+.container{
+	border:2px solid red;
+	width:100%;
+	height:infinite;
+}
+.header{
+	border:2px solid blue;
+	height:50px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.backgroundimg{
+	border:2px solid green;
+	height:400px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.logo{
+	border:2px solid yellow;
+	height:50px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.about{
+	border:2px solid #b31aff;
+	height:400px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.service{
+	border:2px solid #cc6600;
+	height:400px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.calltoaction{
+	border:2px solid  #80ff80;
+	height:300px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.testi{
+	border:2px solid #002699;
+	height:300px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.portfoilo{
+	border:2px solid #669999;
+	height:400px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.team{
+	border:2px solid  #336600;
+	height:300px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
+.pricing{
+	border:2px solid  #39004d;
+	height:400px;
+	width:90%;
+	margin:20px 0 0 50px;
+}
