@@ -1,3 +1,10 @@
+
+
+.con{
+	width:90%;
+	margin:auto;
+}
+
 i{
 	color:#1aa3ff;
 	
@@ -12,32 +19,47 @@ i{
 }
 .smedia {
 	
-	margin-left:1250px;
+	margin-top:15px;
 	align-items:center;
+	letter-spacing:20px;
 
 }
 .top{
-	
+	display:flex;
 	background: #fff;
     border-bottom: 1px solid #eee;
     font-size: 15px;
     height: 40px;
+	justify-content:space-between;
 }
 .main{
+	margin:auto;
+	width:90%;
 	display:flex;
 	align-items:center;
 	height:70px;
     background-color:#ffffff;
 	justify-content:space-between;
-	
+	position:fixed;
+		z-index:999;
+    
 	
    }
+ 
 .menu a{
 	margin-left:20px;
     text-decoration:none;
 	color:#8c8c8c;
 	font-size:20px;
 	padding-left:5px;
+	}
+	header{
+		
+	}
+	
+	.menu a:hover{
+		text-decoration:underline;
+		text-decoration-color:blue;
 	}
 .main h1{
     font-family: "Sofia", sans-serif;
@@ -52,6 +74,7 @@ i{
 		width:100%;
 		background-attachment:fixed;
 		padding:0;
+		
 	}
 	.container::after{
 		content:"";
@@ -62,6 +85,53 @@ i{
 		bottom:0;
 		right:0;
 	}
+	.banner h1 {
+        position:absolute;
+		z-index:1;
+		color: white;
+		font-size:50px;
+		font-weight:800;
+		font-family: "Raleway", sans-serif;
+	}
+	.banner p{
+		position:absolute;
+		z-index:1;
+        color:white;
+        line-height:30px;
+		top:90px;
+		font-size:20px;
+		margin:150px 0 0 50px;
+		width:800px;
+	}
+	.banner h1{
+		margin:150px 0 0 50px;
+		
+	}
+	.aboutus img{
+		height:500px;
+		width:550px;
+		padding-top:100px;
+		margin-left:100px;
+
+	}
+	.aboutus{
+		display:flex;
+	}
+	.aboutush {
+		margin:150px 0 0 100px ;
+	}
+	.aboutush h1{
+		font-size:40px;
+		font-weight:700;
+		text-align:center;
+		color:#5c768d;
+	}
+	.aboutush p{
+		line-height:25px;
+		font-size:20px;
+		
+	}
+
 
 
 	
