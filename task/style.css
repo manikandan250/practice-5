@@ -313,3 +313,369 @@
 	margin-top:120px;
 	margin-left:35px;
 }
+.port{
+	border:2px solid #800033;
+	background-color:#800033;
+	height:210vh;
+	width:100%;
+	margin-top:50px;
+
+}
+.porth{
+	border:2px solid #00cc99;
+	background-color:#00cc99;
+	height:100px;
+	width:90%;
+	margin-top:50px;
+	margin-left:65px;
+}
+.porta{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:50px;
+	width:90%;
+	margin-top:40px;
+	margin-left:65px;
+}
+.portimg{
+	border:2px solid #00ff99;
+	background-color:#00ff99;
+	height:160vh;
+	width:90%;
+	margin-top:40px;
+	margin-left:65px;
+	
+}
+.portimgrow{
+	display:flex;
+}
+.portimg1{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:120px;
+}
+.portimg2{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.portimg3{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.portimgrow1{
+	display:flex;
+}
+.portimg4{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:120px;
+}
+.portimg5{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.portimg6{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.portimgrow2{
+	display:flex;
+}
+.portimg7{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:120px;
+}
+.portimg8{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.portimg9{
+	border:2px solid #ffffcc;
+	background-color:#ffffcc;
+	height:40vh;
+	width:40vh;
+	margin-top:60px;
+	margin-left:50px;
+}
+.teams{
+	border:2px solid #669999;
+	background-color:#669999;
+	height:110vh;
+	width:100%;
+	margin-top:60px;
+	
+}
+.teamscontent{
+	border:2px solid #ffff66;
+	background-color:#ffff66;
+	height:30vh;
+	width:100%;
+	margin-top:50px;
+}
+.teamsimg{
+	border:2px solid #ff5050;
+	background-color:#ff5050;
+	height:60vh;
+	width:95%;
+	margin-top:50px;
+	margin-left:30px;
+	display:flex;
+}
+.teamsimg1{
+	border:2px solid #66ffff;
+	background-color:#66ffff;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:55px;
+}
+.teamsimg2{
+	border:2px solid #66ffff;
+	background-color:#66ffff;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.teamsimg3{
+	border:2px solid #66ffff;
+	background-color:#66ffff;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.teamsimg4{
+	border:2px solid #66ffff;
+	background-color:#66ffff;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.pricing{
+	border:2px solid #660033;
+	background-color:#660033;
+	height:110vh;
+	width:100%;
+	margin-top:60px;
+	
+}
+.pricingcontent{
+	border:2px solid #33cccc;
+	background-color:#33cccc;
+	height:30vh;
+	width:100%;
+	margin-top:50px;
+}
+.pricingbox{
+	border:2px solid #00ff00;
+	background-color:#00ff00;
+	height:60vh;
+	width:95%;
+	margin-top:50px;
+	margin-left:30px;
+	display:flex;
+}
+.pricingbox1{
+	border:2px solid #ccff99;
+	background-color:#ccff99;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:55px;
+}
+.pricingbox2{
+	border:2px solid #ccff99;
+	background-color:#ccff99;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.pricingbox3{
+	border:2px solid #ccff99;
+	background-color:#ccff99;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.pricingbox4{
+	border:2px solid #ccff99;
+	background-color:#ccff99;
+	height:45vh;
+	width:40vh;
+	margin-top:50px;
+	margin-left:30px;
+}
+.questions{
+	border:2px solid #ff99ff;
+	background-color:#ff99ff;
+	height:100vh;
+	width:100%;
+	margin-top:50px;
+	
+}
+.questionscontent{
+	border:2px solid #ffff66;
+	background-color:#ffff66;
+	height:30vh;
+	width:90%;
+	margin-top:50px;
+	margin-left:60px;
+}
+.questionslist{
+	border:2px solid #ffff66;
+	background-color:#ffff66;
+	height:50vh;
+	width:90%;
+	margin-top:50px;
+	margin-left:60px;
+}
+.contacts{
+	border:2px solid #00cc99;
+	background-color:#00cc99;
+	height:120vh;
+	width:100%;
+	margin-top:50px;
+	
+}
+.contectcontent{
+	border:2px solid #ffff66;
+	background-color:#ffff66;
+	height:30vh;
+	width:95%;
+	margin-top:40px;
+	margin-left:35px;
+}
+.contectbox1{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:30vh;
+	width:30vh;
+	margin-top:50px;
+	margin-left:38vh;
+}
+.contectflex{
+	display:flex;
+}
+.contectbox2{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:30vh;
+	width:30vh;
+	margin-top:50px;
+	margin-left:20px;
+}
+.contectbox3{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:30vh;
+	width:30vh;
+	margin-top:50px;
+	margin-left:38vh;
+	
+}
+/*.form{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:30vh;
+	width:30vh;
+	margin-top:50px;
+}*/
+.footer{
+    border:2px solid #009999;
+	background-color:#009999;
+	height:120vh;
+	width:100%;
+	margin-top:50px;
+	
+}
+.footercontent{
+	border:2px solid #99ff66;
+	background-color:#99ff66;
+	height:70vh;
+	width:90%;
+	margin-top:50px;
+	margin-left:65px;
+	display:flex;
+}
+.footer1{
+	border:2px solid #ff00ff;
+	background-color:#ff00ff;
+	height:50vh;
+	width:27vh;
+	margin-top:65px;
+	margin-left:90px
+}
+.footer2{
+	border:2px solid #ff00ff;
+	background-color:#ff00ff;
+	height:50vh;
+	width:27vh;
+	margin-top:65px;
+	margin-left:65px
+}
+.footer3{
+	border:2px solid #ff00ff;
+	background-color:#ff00ff;
+	height:50vh;
+	width:27vh;
+	margin-top:65px;
+	margin-left:65px
+}
+.footer4{
+	border:2px solid #ff00ff;
+	background-color:#ff00ff;
+	height:50vh;
+	width:40vh;
+	margin-top:65px;
+	margin-left:65px
+}
+.copyright{
+	border:2px solid #6699ff;
+	background-color:#6699ff;
+	height:25vh;
+	width:90%;
+	margin-top:65px;
+	margin-left:65px;
+}
+.icon{
+	border:2px solid #ff9999;
+	background-color:#ff9999;
+	height:50px;
+	width:35vh;
+	margin-top:65px;
+	margin-left:auto;
+}
