@@ -335,6 +335,7 @@
 .call-content a:hover{
 	background-color: #ffc107;
 }
+/**testimonials**/
 .testimonials{
 	margin-top:15vh;
 }
@@ -369,10 +370,7 @@
 	color:#aab3c7;
 
 }
-.testi-box1{
-	
-	
-}
+
 .testi-box1 i{
 	color:#ddff99;
 	font-size:2rem;
@@ -428,8 +426,151 @@
 	border-radius:50%;
 	height:6rem;
 }
+/**portfolio**/
+.portfolio{
+	width:90%;
+	margin:auto;
+}
+.portfolio-content{
+	text-align:center;
+	margin-top:15vh;
+}
+.portfolio-content h1{
+	font-weight:bold;
+	font-size:30px;
+	color:black;
+	font-family: "Raleway", sans-serif;
+	position:relative;
+}
+.portfolio-content h1::after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.portfolio-content p{
+	font-size:20px;
+	color:#aab3c7;
 
+}
+.port{
+	text-align:center;
+	
+}
+.porta a{
+	margin:10px;
+	border:2px ;
+	border-radius:50%;
+	padding:5px;
+}
+.porta a:hover{
+	background:yellow;
+}
+.port-img{
+	display:flex;
+	
+}
+.port-img img{
+	margin-top:20px;
+	height:45vh;
+	width:55vh;
+	margin-left:20px;
+}
+/**team**/
+.team{
+	width:90%;
+	margin:auto;
+	
+}
+.team-content{
+	text-align:center;
+	margin-top:30vh;
+}
+.team-content h1{
+	font-weight:bold;
+	font-size:30px;
+	color:black;
+	font-family: "Raleway", sans-serif;
+	position:relative;
+}
+.team-content h1::after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.team-content p{
+	font-size:20px;
+	color:#aab3c7;
 
+}
+.team-img{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:15vh;
+	text-align:center;
+}
+.team-img img{
+	height:40vh;
+	width:39vh;
+	margin-left:6vh;
+	
+}
+.team-img p{
+	display:block;
+	color:#aaaaaa;
+}
+.team-img h1{
+	font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #414c64;
+	font-family: "Raleway", sans-serif;
+}
+/**pricing**/
+.pricing{
+	width:90%;
+	margin:auto;
+}
+.pricing-content{
+	margin-top:30vh;
+	text-align:center;
+}
+.pricing-content h1{
+	font-weight:bold;
+	font-size:30px;
+	color:black;
+	font-family: "Raleway", sans-serif;
+	position:relative;
+}
+.pricing-content h1::after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.pricing-content p{
+	font-size:20px;
+	color:#aab3c7;
+
+}
+.pricing-adv{
+	border:2px;
+	background:#f2f2f2;
+	height:80vh;
+}
 
 
 
