@@ -1,0 +1,151 @@
+.header-content{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.header-content a{
+	text-decoration:none;
+	margin:10px;
+}
+.container{
+	width:80%;
+	margin:auto;
+	
+}
+.header-main{
+	background: #f2f2f2;
+	position:fixed;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	z-index:997;
+}
+
+.header-content h1{
+	font-family: "Playfair Display", sans-serif;
+    font-style: italic;
+	font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-content a{
+	font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7e7d7d;
+}
+.header-content a:hover{
+	color:#b8a07e;
+}
+/**banner**/
+.banner{
+	background-image:url(img/home-bg.jpg);
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+	width:100%;
+}
+.banner-content{
+	position: absolute;
+	z-index:1;
+	color:white;
+	margin:30vh 0 0 10vh;
+}
+.banner-content h1{
+	font-size:40px;
+	font-weight:700;
+	letter-spacing:1px;
+	margin-bottom:10px;
+}
+.banner-content p{
+	font-size: 13px;
+    letter-spacing: 3px;
+	font-weight:500;
+}
+.banner-content i{
+	letter-spacing:15px;
+	margin-top:10px;
+	font-size:4vh;
+}
+.container-flex{
+	width:90%;
+	margin:auto;
+}
+/**about**/
+.about-img{
+	border:15px solid #d2a679;
+	height:50vh;
+	width:50vh;
+	
+}
+.about{
+	margin-top:20vh;
+}
+.about-img img{
+	height:55vh;
+	width:50vh;
+	margin: -13vh;
+    margin-left: 12vh;
+}
+.container-flex1{
+	display:flex;
+	width:90%;
+	margin:auto;
+}
+.about-content{
+	margin-left:25vh;
+	color: #999999;
+}
+.about-content h1{
+	font-size:4vh;
+}
+.about-content p{
+	font-size:3vh;
+	line-height:4.5vh;
+}
+.about-slide{
+	margin-top:20vh;
+	display:flex;
+}
+.about-box i{
+	color: #b8a07e;
+	font-size:6vh;
+}
+.about-box p{
+	color: #999999
+}
+/**my portfolio**/
+.my-portfolio{
+	margin-top:25vh;
+	
+}
+.my-port h1{
+	color: #292929;
+    font-weight: 600;
+	font-size:35px;
+	font-family: 'Barlow', sans-serif;
+}
+.my-port a{
+	text-decoration:none;
+	margin:70px 0 0 30px;
+	color: #999999;
+}
+.my-port a:hover{
+	color:#b8a07e;
+}
+.my-port{
+	text-align:center;
+}
+.myport-img{
+	width:90%;
+	margin:auto;
+}
+.myport-img img{
+	height:45vh;
+	width:47vh;
+	margin:20px;
+	
+}
