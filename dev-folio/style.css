@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background-color: #f5f5f5;
+	
+}
+/**header section**/
+.container{
+	width:90%;
+	margin:auto;
+}
+header{
+	width:100%;
+	background-color:black;
+	position:fixed;
+	z-index:999;
+}
+.header-logo{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+    padding:20px;
+}
+.header-logo a{
+	text-decoration:none;
+	margin:10px;
+	color:white;
+	font-size:1.2rem;
+}
+.header-logo a:hover{
+	text-decoration:underline;
+	
+}
+.header-logo h1{
+	color:white;
+	font-size:1.6rem;
+	font-weight:600;
+	font-family: 'Roboto Condensed', sans-serif;
+} 
+/**banner**/
+.banner{
+	background-image:url(img/hero-bg.jpg);
+	height:100vh;
+	background-size:cover;
+	background-attachment:fixed;
+	width:100%;
+	position:relative;
+}
+.banner::after{
+	content:"";
+	position:absolute;
+	background-color:rgba(0,0,0,0.6);
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	
+}
+.banner-content {
+	z-index:990;
+	color:white;
+	position:absolute;
+	margin:42vh 0 0 35vh;
+}
+.banner-content h1{
+	font-size:11vh;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.banner-content h2{
+	font-size:7vh;
+	text-align:center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/**about section**/
+.about-box{
+	box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 15px 0 rgb(0 0 0 / 20%);
+	height:100vh;
+	margin-top:20vh;
+	z-index:2;
+}
+.about-detail img{
+	padding:10vh;
+	border-radius:27%;
+	
+}
+.about-detail{
+	display:flex;
+}
+.about-profile{
+	margin:10vh 0 0 0;
+	line-height:5.5vh;
+}
+.about-profile span{
+	font-size:1.6rem;
+	font-weight:600;
+	font-family: 'Poppins', sans-serif;
+	color:black;
+}
+.about-profile p{
+	font-size:1.3rem;
+	color:#b3b3b3;
+}
+.about-skill{
+	width:50%;
+	margin-left:10vh;
+	line-height:8vh;
+}
+.about-skill .html{
+	background-color:#cde1f8;
+	width:100%;
+	height:2vh;
+}
+.html div{
+	background-color:#0d6efd;
+	width:85%;
+	height:2vh;
+}
+.about-skill .css{
+	background-color:#cde1f8;
+	width:100%;
+	height:2vh;
+}
+.css div{
+	width:75%;
+	height:2vh;
+	background-color:#0d6efd;
+}
+.about-skill .php{
+	background-color:#cde1f8;
+	width:100%;
+	height:2vh;
+}
+.php div{
+	width:50%;
+	height:2vh;
+	background-color:#0d6efd;
+}
+	
+.about-skill .js{
+	background-color:#cde1f8;
+	width:100%;
+	height:2vh;
+}
+.js div{
+	width:90%;
+	height:2vh;
+	background-color:#0d6efd;
+}
+.about-skill h4{
+	font-size:1.6rem;
+	font-family: 'Poppins', sans-serif;
+}
+	
+	
