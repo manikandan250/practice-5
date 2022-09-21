@@ -86,8 +86,8 @@
 .about-img img{
 	height:55vh;
 	width:50vh;
-	margin: -13vh;
-    margin-left: 12vh;
+	margin: -13vh 0 0 10vh;
+    
 }
 .container-flex1{
 	display:flex;
@@ -190,7 +190,7 @@
 .get h2{
 	color: #292929;
     font-weight: 600;
-	font-size:35px;
+	font-size:25px;
 	font-family: 'Barlow', sans-serif;
 }
 .get{
@@ -215,6 +215,7 @@ form input[type="text"]{
 form input[type="email"]{
 	width:250px;
 	height:40px;
+	margin-left:5vh;
 }
 .get-form{
 	display:flex;
@@ -226,17 +227,17 @@ form input[type="email"]{
 }
 .get-flex-1 textarea{
 	margin-top:10px;
+	width:34rem;
 }
 .get-flex{
 	display:flex;
-	justify-content:space-between;
-	width:75%;
+	width:85%;
 }
 .get-flex-1 input[type="text"]{
-	width:95vh;
+	width:34rem;
 }
 .get-form button{
-	width:95vh;
+	width:34rem;
 	height:50px;
 	margin-top:10px;
 	background-color:black;
