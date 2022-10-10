@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+/*top section*/
+.top{
+	box-shadow:1px 1px 3px gray;
+	padding:2px;
+	
+}
+.top-flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:15px 0;
+}
+.top-contact span{
+	padding:20px;
+}
+.top-contact i{
+	color:#1aa3ff;
+	padding:6px;
+}
+.top-media i{
+	padding:10px;
+	color: #5c768d;
+}
+.top-media i:hover{
+	color:#1aa3ff;
+}
+/*header section*/
+.header-content{
+	display:flex;
+}
