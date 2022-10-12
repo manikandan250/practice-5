@@ -4,12 +4,17 @@
 	box-sizing:border-box;
 }
 .container{
-	width:90%;
+	width:85%;
 	margin:auto;
 }
 /*top section*/
+@media(min-width:360px){
+.container{
+	width:100%;
+	margin:auto;
+}
 .top{
-	box-shadow:1px 1px 3px gray;
+	border-bottom:3px solid #eee;
 	padding:2px;
 	
 }
@@ -20,7 +25,69 @@
 	margin:15px 0;
 }
 .top-contact span{
-	padding:20px;
+	padding:2px;
+}
+.top-contact i{
+	color:#1aa3ff;
+	padding:6px;
+}
+.top-media{
+	display:none;
+}
+
+}
+@media(min-width:562px){
+.container{
+	width:90%;
+	margin:auto;
+}
+.top{
+	border-bottom:3px solid #eee;
+	padding:2px;
+	
+}
+.top-flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:15px 0;
+}
+.top-contact span{
+	padding:5px;
+}
+.top-contact i{
+	color:#1aa3ff;
+	padding:6px;
+}
+.top-media i{
+	padding:5px;
+	color: #5c768d;
+}
+.top-media{
+	display:block;
+}
+.top-media i:hover{
+	color:#1aa3ff;
+}
+}
+@media(min-width:992px){
+.container{
+	width:85%;
+	margin:auto;
+}
+.top{
+	border-bottom:3px solid #eee;
+	padding:2px;
+	
+}
+.top-flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:15px 0;
+}
+.top-contact span{
+	padding:5px;
 }
 .top-contact i{
 	color:#1aa3ff;
@@ -30,10 +97,344 @@
 	padding:10px;
 	color: #5c768d;
 }
+.top-media{
+	display:block;
+}
 .top-media i:hover{
 	color:#1aa3ff;
 }
+}
 /*header section*/
+@media(min-width:360px){
+.container{
+	width:100%;
+	margin:auto;
+}
 .header-content{
 	display:flex;
+}
+.header{
+	background-color:white;
+	width:100%;
+}
+.header-content{
+	padding:20px 0;
+	justify-content:space-between;
+	align-items:center;
+}
+.header-logo h1{
+	font-size:2rem;
+	color: #1c5c93;
+}
+.header-menu{
+	display:none;
+}
+.i-none i{
+	font-size:1.8rem;
+	padding:15px;
+}
+
+}
+@media(min-width:760px){
+.container{
+	width:90%;
+	margin:auto;
+}
+.header-content{
+	display:flex;
+}
+.header{
+	background-color:white;
+	width:100%;
+}
+.header-content{
+	padding:20px 0;
+	justify-content:space-between;
+	align-items:center;
+}
+.header-logo h1{
+	font-size:2rem;
+	color: #1c5c93;
+}
+.header-menu{
+	display:none;
+}
+.i-none i{
+	font-size:1.8rem;
+	padding:15px;
+}
+
+}
+@media(min-width:992px){
+.container{
+	width:85%;
+	margin:auto;
+}
+.header-content{
+	display:flex;
+}
+.header{
+	background-color:white;
+}
+.header-content{
+	justify-content:space-between;
+	padding:20px 0;
+	align-items:center;
+}
+.header-logo h1{
+	font-size:2rem;
+	color: #1c5c93;
+}
+.header-menu a{
+	text-decoration:none;
+	padding:10px ;
+	font-size:1.25rem;
+	color:#8c8c8c;
+}
+.header-menu{
+	display:block;
+}
+.header-menu a:hover{
+	color: #428bca;
+}
+.i-none{
+	display:none;
+}
+}
+
+/*banner section*/
+@media(min-width:360px){
+.container{
+	width:90%;
+	margin:auto;
+}
+.banner{
+	background-image:url(img/slide/slide-2.jpg);
+	background-size:cover;
+	height:80vh;
+	width:100%;
+	background-attachment:fixed;
+	position:relative;
+	background-position:right;
+}
+.banner::after{
+	content:"";
+	position:absolute;
+	background-color:rgba(13,30,45,0.6);
+	opacity:1;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.banner-content{
+	z-index:997;
+	position:relative;
+	padding:7rem 0;
+}
+.banner-head h1{
+	color:white;
+	font-size:1.9rem;
+	margin-bottom:1.5rem;
+	font-weight:600;
+}
+.banner-para p{
+	font-size:1.1rem;
+	width:70%;
+	line-height:1.3rem;
+	color:white;
+	margin-bottom:2.5rem;
+	text-align:justify;
+}
+.banner-button a{
+	text-decoration:none;
+	letter-spacing:2px;
+	border:1px solid #428bca;
+	background-color:#428bca;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	font-size:1rem;
+}
+
+}
+
+@media(min-width:560px){
+.container{
+	width:90%;
+	margin:auto;
+}
+.banner{
+	background-image:url(img/slide/slide-2.jpg);
+	background-size:cover;
+	height:80vh;
+	width:100%;
+	background-attachment:fixed;
+	position:relative;
+}
+.banner::after{
+	content:"";
+	position:absolute;
+	background-color:rgba(13,30,45,0.6);
+	opacity:1;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.banner-content{
+	z-index:997;
+	position:relative;
+	padding:7rem 0;
+}
+.banner-head h1{
+	color:white;
+	font-size:2.3rem;
+	margin-bottom:2rem;
+	font-weight:600;
+}
+.banner-para p{
+	font-size:1.2rem;
+	width:70%;
+	line-height:1.5rem;
+	color:white;
+	margin-bottom:2.5rem;
+	text-align:justify;
+}
+.banner-button a{
+	text-decoration:none;
+	letter-spacing:2px;
+	border:1px solid #428bca;
+	background-color:#428bca;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	font-size:1.1rem;
+}
+.banner-button a:hover{
+		background-color:#1c5c93;
+}
+}
+
+@media(min-width:992px){
+.container{
+	width:85%;
+	margin:auto;
+}
+.banner{
+	background-image:url(img/slide/slide-2.jpg);
+	background-size:cover;
+	height:80vh;
+	width:100%;
+	background-attachment:fixed;
+	position:relative;
+}
+.banner::after{
+	content:"";
+	position:absolute;
+	background-color:rgba(13,30,45,0.6);
+	opacity:1;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+.banner-content{
+	z-index:997;
+	position:relative;
+	padding:7rem 0;
+}
+.banner-head h1{
+	color:white;
+	font-size:3rem;
+	margin-bottom:2rem;
+	font-weight:600;
+}
+.banner-para p{
+	font-size:1.2rem;
+	width:70%;
+	line-height:1.5rem;
+	color:white;
+	margin-bottom:2.5rem;
+	text-align:justify;
+}
+.banner-button a{
+	text-decoration:none;
+	letter-spacing:2px;
+	border:1px solid #428bca;
+	background-color:#428bca;
+	color:white;
+	padding:14px;
+	border-radius:10px;
+	font-size:1.1rem;
+}
+.banner-button a:hover{
+		background-color:#1c5c93;
+}
+}
+
+/*about section*/
+.about{
+	margin:10vh 0;
+}
+.about-flex{
+	box-shadow:0 5px 25px 0 rgb(214 215 216 / 60%);
+	width:100%;
+	height:auto;
+	display:flex;
+}
+.about-img{
+	width:50%;
+}
+.about-content{
+	width:50%;
+	padding:2rem;
+	margin-top:3rem;
+}
+.about-img img{
+	width:100%;
+	padding:2rem;
+}
+.para-flex{
+	display:flex;
+	margin-bottom:2rem;
+}
+.about-title h1{
+	font-size:2.1rem;
+	text-align:center;
+	color: #5c768d;
+	margin-bottom:2rem;
+}
+.about-title p{
+	font-size:1.25rem;
+	line-height:1.3rem;
+	margin-bottom:3rem;
+	color: #666;
+	
+}
+.about-para h2{
+	font-size:1.2rem;
+	margin-bottom:1.3rem;
+	font-weight:bold;
+}
+.about-para p{
+	font-size:1.15rem;
+	color: #666;
+}
+.about-para i{
+	font-size:1.8rem;
+	color: #428bca;
+}
+.para-left{
+	margin-left:3rem;
+}
+.para-left h2:hover{
+	color: #428bca;
+}
+.about-para i:hover{
+	background: #428bca;
+	color:white;
+	border:1px solid #428bca;
+	border-radius:10px;
+	padding:0.5rem;
 }
