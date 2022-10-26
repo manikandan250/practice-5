@@ -1,5 +1,57 @@
-@media(min-width:992px){
-.banner-title h1{
-	font-size:7rem;
+#nav-hover:hover{
+	color:#eb5d1e;
 }
+#head-button{
+	color: #fff;
+    background: #ee7843;
+	border:none;
+	width:15%;
 }
+#head-button1{
+	color: #fff;
+    background: #ee7843;
+	width:30%;
+	border:none;
+}
+.banner-para{
+	color: #a08f86;
+}
+.banner{
+	background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+}
+/**about section**/
+.about-icon{
+	color:#f39e7a;
+	font-weight:400;
+}
+/**service section**/
+.service{
+	background-color: #fef8f5;
+}
+.service-head{
+	color: #c2b7b1;
+}
+.service-para::after{
+	content: "";
+    position: relative;
+    display: flex;
+    width: 6rem;
+    height: 0.1rem;
+    background-color:#eb5d1e;
+    margin: auto;
+    top: 10px;
+    border-radius:50%;
+}
+#ser .service-box{
+	border-radius:6%;
+}
+#ser .service-box:hover{
+	border-bottom:3px solid #ef7f4d;
+}
+.service-box i{
+	color: #ef7f4d;
+	font-size:bold;
+}
+
+
