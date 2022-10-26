@@ -8,8 +8,71 @@
   <meta name="author" content="John Doe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  	<style>
+	h1{
+			color:gray;
+			font-weight:bold;
+			text-align:center;
+	}	
+    #div1{
+		  width: 100px;
+		  height: 100px;
+		  background:#e6ff99;
+		  transition: all 2s ease-in-out;
+	}
+	#div1:hover{
+		transform: rotate(360deg);
+	}
+	
+	 #div2{
+		  width: 100px;
+		  height: 100px;
+		  background:#e6ff99;
+		  transition: all 2s;
+		  
+	 }
+	#div2:hover{
+		transform:translate(100px,200px);
+	 }
+	 
+	#div3{
+		  width: 100px;
+		  height: 100px;
+		  background:#e6ff99;
+		  transition: all 2s ease-in-out;
+	 }
+	 #div3:hover{
+		transform:matrix(2,0,0,2,0,0);
+	 }
+	 
+     #div4{
+		  width: 100px;
+		  height: 100px;
+		  background:#e6ff99;
+		  transition: all 2s;
+	}
+	#div4:hover{
+		transform:scale(1,2);
+	 }
+	#div5{
+		  width: 100px;
+		  height: 100px;
+		  background:#e6ff99;
+		  transition: all 2s ;
+	 }
+	#div5:hover{
+		transform:skew(20deg,20deg);
+	 }
+	</style>
 </head>
 <body>
+
+	<h1>CSS TRANSITION</h1>
+	<div id="div1">Rotate(360deg)</div><br>
+	<div id="div2">translate(x,y)</div><br>
+	<div id="div3">matrix()</div><br>
+	<div id="div4">scale()</div><br>
+	<div id="div5">skewy()</div><br>
 <!--transalte-->
 <section class="container">
 	<section>
