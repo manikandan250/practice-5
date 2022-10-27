@@ -36,7 +36,7 @@
 	content: "";
     position: relative;
     display: flex;
-    width: 6rem;
+    width:5rem;
     height: 0.1rem;
     background-color:#eb5d1e;
     margin: auto;
@@ -48,10 +48,95 @@
 }
 #ser .service-box:hover{
 	border-bottom:3px solid #ef7f4d;
+	transform:translateY(-6px);
 }
 .service-box i{
 	color: #ef7f4d;
 	font-size:bold;
+}
+/**portfolio section**/
+.port-head a{
+	text-decoration:none;
+	color:black;
+	padding:0.7rem;
+	font-weight:bold;
+}
+.port-head a:hover{
+	color:#eb5d1e;
+}
+.port-head .port-a{
+	color:#eb5d1e;
+}
+.port-img img{
+	border-radius:6%;
+}
+.port-img{
+	position:relative;
+}
+.port-icons i{
+	background-color: white;
+    color: #428bca;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+	font-size:1.3rem;
+}
+.port-hov{
+	text-align:center;
+	color:white;
+	line-height:1.8rem;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:#00000047;
+	opacity:0;
+	padding:4rem 0;
+}
+.port-img:hover .port-hov{
+	opacity:1;
+}
+/** faq section**/
+.faq{
+	background-color: #fef8f5;
+}
+.faq-button{
+	background-color:red;
+}
+/** client secction**/
+.client{
+	background-color: #fef8f5;
+}
+/**contect-section**/
+.contect-icon{
+	background-color:#fdf1ec;
+    color:#eb5d1e;
+    display:flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: auto;
+	font-size:1.3rem;
+	float:left;
+}
+.contect-icon:hover{
+	background-color:#eb5d1e;
+	color:white;
+}
+.contect-adrees{
+	 background: #fff;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+	border-top: 3px solid #eb5d1e;
+    border-bottom: 3px solid #eb5d1e;
 }
 
 
