@@ -73,6 +73,21 @@
 .port-img{
 	position:relative;
 }
+.port-img::before{
+	content:"";
+	position:absolute;
+	width:0%;
+	background-color:#00000047;
+	transition:all 0.4s;
+	top:0;
+	left:12px;
+	bottom:0;
+	right:10rem;
+	border-radius:6%;
+}
+.port-img:hover::before{
+	width:94%;
+}
 .port-icons i{
 	background-color: white;
     color: #428bca;
@@ -94,7 +109,6 @@
 	bottom:0;
 	right:0;
 	left:0;
-	background-color:#00000047;
 	opacity:0;
 	padding:4rem 0;
 }
@@ -107,6 +121,46 @@
 }
 .faq-button{
 	background-color:red;
+}
+/** team section**/
+
+.team-img{
+	position:relative;
+}
+.team-name{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:10px;
+	left:10px;
+	text-align:center;
+	padding-top:11rem;
+	color:white;
+	background:linear-gradient(rgba(78,64,57,0.1),rgba(78,64,57,0.8));
+	opacity:0;
+}
+.team-img:hover .team-name{
+	opacity:1;
+}
+.team-icon{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:10px;
+	width:35px;
+	display:flex;
+	flex-direction:column;
+	background-color:#4e403987;
+	opacity:0;
+}
+.team-img:hover .team-icon{
+	opacity:1;
+}
+.team-icon i{
+	padding:10px;
+	font-size:1.3rem;
+	color:white;
 }
 /** client secction**/
 .client{
@@ -131,12 +185,17 @@
 	color:white;
 }
 .contect-adrees{
-	 background: #fff;
+	background: #fff;
     padding: 30px;
-    width: 100%;
-    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
 	border-top: 3px solid #eb5d1e;
     border-bottom: 3px solid #eb5d1e;
+}
+#contect-button button{
+	background: #eb5d1e;
+	color:white;
+	border:none;
+	padding:0.5rem 1.3rem;
+	letter-spacing:2px;
 }
 
 
