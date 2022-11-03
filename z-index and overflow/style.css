@@ -1,0 +1,28 @@
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:-1;
+}
+.visible{
+	background-color:blue;
+	overflow:visible;
+}
+.hidden{
+	border:2px solid blue;
+	width:50%;
+	height:30px;
+	overflow:hidden;
+}
+.scroll{
+	border:2px solid blue;
+	width:50%;
+	height:8rem;
+	overflow:scroll;
+}
+.auto{
+	border:2px solid blue;
+	width:50%;
+	height:8rem;
+	overflow:auto;
+}
