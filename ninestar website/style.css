@@ -54,7 +54,7 @@
 	border-bottom:3px solid #ef7f4d;
 	transform:translateY(-6px);
 }
-.service-box i{
+.service-box iconify-icon{
 	font-size:2.7rem;
 	font-weight:500;
 	color:#ef7f4d; 
@@ -162,6 +162,7 @@
 	opacity:0;
 	width:auto;
 	height:100%;
+	transition:all 1s;
 }
 .team-img:hover .team-name{
 	opacity:1;
@@ -177,6 +178,7 @@
 	flex-direction:column;
 	background-color:#4e403987;
 	opacity:0;
+	transition:all 2s;
 }
 .team-img:hover .team-icon{
 	opacity:1;
@@ -193,6 +195,10 @@
 .client-img img{
 	width:100%;
 	height:auto;
+	filter:grayscale(100%);
+}
+.client-img img:hover{
+	filter:none;
 }
 /**contect-section**/
 .contect-icon{
