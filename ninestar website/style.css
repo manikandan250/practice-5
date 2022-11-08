@@ -192,6 +192,9 @@
 	font-size:1.3rem;
 	color:white;
 }
+.team-icon i:hover{
+	color: #eb5d1e;
+}
 /** client secction**/
 .client{
 	background-color: #fef8f5;
